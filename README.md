@@ -6,6 +6,19 @@
 Framework7
 ==========
 
+## 自定义打包
+
+新增自定义打包配置文件 `scripts/build-config.custom.js`
+
+```
+npm run build:prod:custom
+# 或 npm run bpc
+```
+
+> 打包成功后, 将生成 `dist-custom` 目录.
+
+
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/framework7io/Framework7.svg)](https://greenkeeper.io/)
 
 Full Featured Mobile HTML Framework For Building iOS & Android Apps
